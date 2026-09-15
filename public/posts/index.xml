@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Posts on alebozek@wired</title>
+		<link>http://localhost:1313/posts/</link>
+		<description>Recent content in Posts on alebozek@wired</description>
+		<generator>Hugo</generator>
+		<language>en-es</language>
+		
+		
+		
+		
+			<lastBuildDate>Wed, 16 Sep 2026 00:33:47 +0200</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>1ntr0</title>
+				<link>http://localhost:1313/posts/intro/</link>
+				<pubDate>Wed, 16 Sep 2026 00:33:47 +0200</pubDate>
+				<guid>http://localhost:1313/posts/intro/</guid>
+				<description>&lt;h2 id=&#34;introducción-al-blog&#34;&gt;Introducción al blog&lt;/h2&gt; &lt;p&gt;Hey, soy alebozek y este es mi blog. Aquí documentaré mis experiencias digitales y reales, fotos que tome y algunas notas de distintos ámbitos. Estoy muy apegado a la tecnología y la mayoría del tiempo estaré dando la chapa en temas relacionados, si te llama la atención creo que este blog es para ti.&lt;/p&gt;&#xA;&lt;p&gt;Happy Hacking!&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>
