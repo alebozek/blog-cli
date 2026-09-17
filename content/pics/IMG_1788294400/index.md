@@ -1,6 +1,6 @@
 +++
-date = '2026-09-01'
 draft = false
+date = '2026-09-01'
 title = 'Cortisol bajo en la ciudad'
 type = "gallery"
 image = 'IMG_1840.jpg'
