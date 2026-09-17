@@ -25,7 +25,7 @@ jobs:
       NODE_VERSION: 24.20.0
 
       # Set the build time zone
-      TZ: Europe/Oslo
+      TZ: Europe/Madrid
     steps:
       - name: Checkout
         uses: actions/checkout@v7
@@ -103,6 +103,11 @@ jobs:
             echo "Installing Node.js dependencies..."
             npm ci
           fi
+
+      - name: Clean previous output
+        run: |
+          echo "Cleaning previous output..."
+          rm -rf public
 
       - name: Cache restore
         id: cache-restore
