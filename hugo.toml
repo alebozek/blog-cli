@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://alebozek.es/'
 locale = 'en-es'
 title = 'alebozek@wired'
 theme = "hugo-theme-console"
