@@ -311,3 +311,79 @@ figure {
         padding-top: 5px;
     }
 }
+
+/* Standard Markdown blockquotes */
+blockquote {
+  position: relative;
+  margin: calc(var(--global-space) * 2) 0;
+  padding-left: calc(var(--global-space) * 2);
+  border-left: 3px solid var(--primary-color);
+  color: var(--secondary-color);
+  font-style: italic;
+  overflow: visible;
+}
+
+blockquote::after {
+  content: none;
+}
+
+blockquote p,
+blockquote ul,
+blockquote ol {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+blockquote p + p {
+  margin-top: calc(var(--global-space) * 1);
+}
+
+/* MODIFIED */
+/* Style gh-blockquote shortcode. */
+.gh-blockquote {
+  display: block;
+  margin: calc(var(--global-space) * 2) 0;
+  padding: 0.5rem 0 0.5rem 1rem;
+  border-left-style: solid;
+  border-left-width: 4px;
+  background: transparent;
+  color: var(--font-color);
+  font-style: normal;
+}
+
+.gh-blockquote > span {
+  display: inline-block;
+  margin-bottom: 0.35rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.gh-blockquote p,
+.gh-blockquote ul,
+.gh-blockquote ol {
+  margin: 0;
+}
+
+.gh-important {
+  border-color: #A855F7;
+}
+
+.gh-important > span {
+  color: #A855F7;
+}
+
+.gh-note {
+  border-color: #3B82F6;
+}
+
+.gh-note > span {
+  color: #3B82F6;
+}
+
+.gh-warning {
+  border-color: #EAB308;
+}
+
+.gh-warning > span {
+  color: #EAB308;
+}
